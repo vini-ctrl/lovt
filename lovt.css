@@ -1,0 +1,251 @@
+
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+/*  GERAIS E HEADER  */
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    margin: 0 auto;
+    width: 90%;
+    height: 60px;
+    line-height: 0%;
+    padding: 2% 5%;
+    border: 0ch;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.menuzinho{
+    justify-content: end;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+
+h1 {
+    display: flex;
+    width: 63px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+    color: #777777;
+}
+
+.frase {
+    display: flex;
+    width: 38px;
+    height: 100%;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    color: #AAAAAA;
+}
+
+.vector {
+    transform: translateX(70%);
+}
+
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+/*  CORPO  */
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2%;
+    padding: 0 5%;
+    gap: 37px;
+
+    background: #FFFFFF;
+}
+
+.img1 {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ofertas {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+/* ************************************************************************** */
+/*  CARDS  */
+
+.card {
+    background-color: #EEEEEE;
+    width: 45%;
+    height: 350px;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+.preco p {
+    font-size: 25px;
+    color: #888888;
+}
+
+.texto {
+
+    padding: 1 12px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: justify;
+    
+}
+
+.preco span {
+    color: white;
+    width: 56px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10.5px;
+}
+
+#new {
+    background-color: #51D275;
+}
+
+#sale {
+    background-color: #DC9730;
+}
+
+
+/* ************************************************************************** */
+/*  FINAL  */
+
+
+h2{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-size: 50px;
+    color: #888888;
+}
+
+.final{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    width: 90%;
+
+}
+
+.industrial{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+
+}
+
+.imgFinal{
+    
+    margin-bottom: 20px;
+    width: 100%;
+    opacity: 50%;
+}
+
+
+label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-size: 45px;
+    color: white;
+    margin: 0 auto;
+}
+
+
+
+
+/* ************************************************************************** */
+/*  FOOTER  */
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    height: 350px;
+    background-color: #333333;
+}
+
+.mapa{
+    margin: 50px 50px 50px 50px;
+    width: 40%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.enderecosFinal{
+    width: 30%;
+    height: 60%;
+    margin: 50px 50px 50px -50px;
+    position:absolute;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: left;
+}
+
+.fim{
+    margin: 2px;
+    font-size: 25px;
+    color: white;
+}
+
+.imaginhas{
+    align-items: center;
+}
